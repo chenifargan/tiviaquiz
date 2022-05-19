@@ -34,7 +34,7 @@ class gmaeView: UIViewController {
     
     @IBAction func ans1(_ sender: Any) {
         loseLifeOrGoUpScore(bool: cheke(num: 0))
-
+//
         if(life>0&&reachedEnd==false){
             goToNextQuestion()
             setQustion()
