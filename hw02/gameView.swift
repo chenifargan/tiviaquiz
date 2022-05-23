@@ -166,6 +166,9 @@ class gmaeView: UIViewController {
 
 
 
+        
+        
+        
     }
 
     func cheke (num :Int)->Bool{
