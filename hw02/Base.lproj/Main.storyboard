@@ -22,17 +22,17 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Czs-vg-ziZ">
                                 <rect key="frame" x="0.0" y="144" width="414" height="568"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quizTime" translatesAutoresizingMaskIntoConstraints="NO" id="lwg-AQ-GV7">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="300" verticalCompressionResistancePriority="300" image="quizTime" translatesAutoresizingMaskIntoConstraints="NO" id="lwg-AQ-GV7">
                                         <rect key="frame" x="50" y="0.0" width="314" height="198"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the trivia quiz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HTU-al-ujQ">
-                                        <rect key="frame" x="50" y="260" width="314" height="30"/>
+                                        <rect key="frame" x="50" y="260" width="299.5" height="30"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SeY-YA-ORX">
-                                        <rect key="frame" x="148" y="330" width="124" height="126"/>
+                                        <rect key="frame" x="106" y="330" width="166" height="126"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" image="btn_play"/>
                                         <connections>
@@ -42,13 +42,13 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="lwg-AQ-GV7" firstAttribute="leading" secondItem="Czs-vg-ziZ" secondAttribute="leading" constant="50" id="5CQ-3b-i2e"/>
-                                    <constraint firstItem="SeY-YA-ORX" firstAttribute="leading" secondItem="Czs-vg-ziZ" secondAttribute="leading" constant="148" id="776-dr-vDH"/>
+                                    <constraint firstItem="SeY-YA-ORX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Czs-vg-ziZ" secondAttribute="leading" constant="20" symbolic="YES" id="776-dr-vDH"/>
                                     <constraint firstAttribute="bottom" secondItem="SeY-YA-ORX" secondAttribute="bottom" constant="112" id="Bgu-RB-zmh"/>
                                     <constraint firstAttribute="trailing" secondItem="SeY-YA-ORX" secondAttribute="trailing" constant="142" id="ByB-HK-Sy8"/>
                                     <constraint firstItem="SeY-YA-ORX" firstAttribute="top" secondItem="lwg-AQ-GV7" secondAttribute="bottom" constant="132" id="FHe-4C-Nup"/>
                                     <constraint firstItem="HTU-al-ujQ" firstAttribute="leading" secondItem="Czs-vg-ziZ" secondAttribute="leading" constant="50" id="Ksl-aR-idh"/>
                                     <constraint firstItem="lwg-AQ-GV7" firstAttribute="top" secondItem="Czs-vg-ziZ" secondAttribute="top" id="UdS-EB-aFy"/>
-                                    <constraint firstAttribute="trailing" secondItem="HTU-al-ujQ" secondAttribute="trailing" constant="50" id="Y9I-Jq-McY"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="HTU-al-ujQ" secondAttribute="trailing" constant="20" symbolic="YES" id="Y9I-Jq-McY"/>
                                     <constraint firstItem="HTU-al-ujQ" firstAttribute="top" secondItem="lwg-AQ-GV7" secondAttribute="bottom" constant="62" id="iPc-yZ-lSz"/>
                                     <constraint firstItem="lwg-AQ-GV7" firstAttribute="top" secondItem="Czs-vg-ziZ" secondAttribute="top" id="mNw-dZ-q1C"/>
                                     <constraint firstAttribute="trailing" secondItem="lwg-AQ-GV7" secondAttribute="trailing" constant="50" id="pEJ-Vb-MHa"/>
